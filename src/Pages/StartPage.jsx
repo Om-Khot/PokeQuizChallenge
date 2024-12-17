@@ -15,15 +15,19 @@ function StartPage(){
                             text={"Who Am I?"}
                             styleType={"warning"}                        
                         />
-                    </Link>
-                    
+                    </Link>                    
                 </div>
+
+
                 <div className="sm: mb-[50px]">
-                    <Button text={"What Is My Type?"} styleType={"warning"}/>
+                    <Link to={'/start/play/region'}>
+                        <Button
+                            text={"Where Do I Live?"}
+                            styleType={"warning"}
+                        />
+                    </Link>                    
                 </div>
-                <div className="sm: mb-[50px]">
-                    <Button text={"Who is Parant and Child"} styleType={"warning"}/>
-                </div>               
+                              
             </div>
         </div>
     );

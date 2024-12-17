@@ -8,6 +8,7 @@ import HomePage from './Pages/HomePage'
 import StartPage from './Pages/StartPage'
 import WhoAmIPlay from './Pages/PlayPages/WhoAmIPlay'
 import ResultPage from './Pages/Result/ResultPage'
+import MyRegion from './Pages/PlayPages/MyRegion'
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<HomePage/>} />
         <Route path='/start' element={<StartPage/>} />
         <Route path='/start/play' element={<WhoAmIPlay/>} />
+        <Route path='/start/play/region' element={<MyRegion/>} /> 
         <Route path='/start/play/result/:scr' element={<ResultPage/>} />
       </Routes>
     </div>
